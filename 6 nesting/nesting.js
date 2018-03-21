@@ -181,3 +181,9 @@ let data = {
 // Lets find the 3rd person in the list
 // Let's use destructing to get the third person's name, mass, and gender
 // Lets start with the base data object then get to Obiwans's second starship
+
+var thirdPerson = data["results"][2].name;
+thirdPerson;
+
+var obi = data.results[data.results.length -1].starships[1];
+obi;

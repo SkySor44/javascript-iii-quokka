@@ -11,3 +11,7 @@ var employees = [
 ]
 
 //forEach over employees and give each employee a bump in pay by 3
+
+employees.forEach(function(item){
+    item.pay += 3;
+})
